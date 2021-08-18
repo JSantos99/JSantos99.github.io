@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+
+    <body>
+        <div class="navbar">
+            <p>João Santos</p>
+
+            <div class="dropdown" >
+              <img src="img/menu.png" class="dropbtn" onclick="myFunction()" style="height:8vh;">
+                <i class="fa fa-caret-down"></i>
+            </img>
+              <div div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <p>Title</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie congue ex, id cursus nisl finibus sit amet. Proin at erat urna. Donec gravida mi ut quam molestie ultrices. Donec gravida lacinia sodales. Nunc congue, mi vel imperdiet pretium, orci erat tincidunt eros, sit amet consequat velit justo non justo. Suspendisse pharetra enim urna, eget pellentesque nulla sodales non. Duis eu neque hendrerit lorem tempus tempor. Morbi interdum, felis condimentum volutpat cursus, ex mi lacinia tortor, in iaculis odio leo ut elit. Duis porttitor rhoncus leo quis blandit.</p>
+        </div>
+
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+        </script>
+
+    </body>
+</html>
